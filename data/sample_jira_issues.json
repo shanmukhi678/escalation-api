@@ -1,0 +1,285 @@
+{
+  "note": "Jira REST API shape (v2). Timestamps are shifted at load time so the newest item looks 'just now'.",
+  "issues": [
+    {
+      "key": "SUP-101",
+      "fields": {
+        "summary": "Invoice sync failing for all vendors",
+        "description": "Our invoice sync has failed again. Can someone take a look?",
+        "reporter": {
+          "accountId": "u-nw1",
+          "displayName": "Dana Brooks",
+          "emailAddress": "dana.brooks@northwind.com"
+        },
+        "status": {
+          "name": "In Progress",
+          "statusCategory": {
+            "key": "indeterminate"
+          }
+        },
+        "priority": {
+          "name": "High"
+        },
+        "labels": [
+          "customer-northwind",
+          "tier-enterprise",
+          "escalated"
+        ],
+        "created": "2026-11-03T09:00:00.000+0000",
+        "comment": {
+          "comments": [
+            {
+              "id": "1",
+              "author": {
+                "displayName": "Priya S",
+                "emailAddress": "priya.s@unisys.com"
+              },
+              "created": "2026-11-03T15:00:00.000+0000",
+              "body": "Thanks for reporting. We are investigating."
+            },
+            {
+              "id": "2",
+              "author": {
+                "displayName": "Dana Brooks",
+                "emailAddress": "dana.brooks@northwind.com"
+              },
+              "created": "2026-11-04T21:00:00.000+0000",
+              "body": "Still not fixed. This is the third time and nobody has called me back. Very frustrated."
+            },
+            {
+              "id": "3",
+              "author": {
+                "displayName": "Dana Brooks",
+                "emailAddress": "dana.brooks@northwind.com"
+              },
+              "created": "2026-11-05T22:00:00.000+0000",
+              "body": "This is UNACCEPTABLE! We are losing money every day. I want to speak to a manager or we will cancel the contract."
+            },
+            {
+              "id": "4",
+              "author": {
+                "displayName": "Dana Brooks",
+                "emailAddress": "dana.brooks@northwind.com"
+              },
+              "created": "2026-11-05T23:30:00.000+0000",
+              "body": "Final warning: escalate this today. Our lawyer is reviewing the SLA."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "key": "SUP-102",
+      "fields": {
+        "summary": "Dashboard loads slowly",
+        "description": "The dashboard is slow since yesterday. Could you check when you have time?",
+        "reporter": {
+          "accountId": "u-bb1",
+          "displayName": "Lee Tran",
+          "emailAddress": "lee.tran@bluebirdretail.com"
+        },
+        "status": {
+          "name": "Open",
+          "statusCategory": {
+            "key": "new"
+          }
+        },
+        "priority": {
+          "name": "Medium"
+        },
+        "labels": [
+          "customer-bluebird-retail",
+          "tier-business"
+        ],
+        "created": "2026-11-05T09:00:00.000+0000",
+        "comment": {
+          "comments": [
+            {
+              "id": "1",
+              "author": {
+                "displayName": "Priya S",
+                "emailAddress": "priya.s@unisys.com"
+              },
+              "created": "2026-11-05T17:00:00.000+0000",
+              "body": "We are looking into it and will update you tomorrow."
+            },
+            {
+              "id": "2",
+              "author": {
+                "displayName": "Lee Tran",
+                "emailAddress": "lee.tran@bluebirdretail.com"
+              },
+              "created": "2026-11-05T23:00:00.000+0000",
+              "body": "It is still slow and I am getting a bit annoyed. We have a client demo today, so this is urgent."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "key": "SUP-103",
+      "fields": {
+        "summary": "Reports export failing and patient portal down",
+        "description": "Our monthly report export is failing and the patient portal is down. This is urgent, we are blocked.",
+        "reporter": {
+          "accountId": "u-gf1",
+          "displayName": "Sam Ortiz",
+          "emailAddress": "sam.ortiz@greenfieldclinic.org"
+        },
+        "status": {
+          "name": "Open",
+          "statusCategory": {
+            "key": "new"
+          }
+        },
+        "priority": {
+          "name": "High"
+        },
+        "labels": [
+          "customer-greenfield-clinic",
+          "tier-enterprise",
+          "escalated"
+        ],
+        "created": "2026-11-02T10:00:00.000+0000",
+        "comment": {
+          "comments": [
+            {
+              "id": "1",
+              "author": {
+                "displayName": "Priya S",
+                "emailAddress": "priya.s@unisys.com"
+              },
+              "created": "2026-11-02T16:00:00.000+0000",
+              "body": "We have logged this and engineering is looking into it."
+            },
+            {
+              "id": "2",
+              "author": {
+                "accountId": "u-gf1",
+                "displayName": "Sam Ortiz",
+                "emailAddress": "sam.ortiz@greenfieldclinic.org"
+              },
+              "created": "2026-11-04T10:00:00.000+0000",
+              "body": "Still not fixed. This is the third time this month and nobody has called me back. Very frustrated."
+            },
+            {
+              "id": "3",
+              "author": {
+                "accountId": "u-gf1",
+                "displayName": "Sam Ortiz",
+                "emailAddress": "sam.ortiz@greenfieldclinic.org"
+              },
+              "created": "2026-11-05T04:00:00.000+0000",
+              "body": "This is UNACCEPTABLE! We are losing money and patients are waiting. I want to speak to a manager or we will cancel the contract."
+            },
+            {
+              "id": "4",
+              "author": {
+                "accountId": "u-gf1",
+                "displayName": "Sam Ortiz",
+                "emailAddress": "sam.ortiz@greenfieldclinic.org"
+              },
+              "created": "2026-11-05T06:00:00.000+0000",
+              "body": "Final warning: escalate this today or we will switch to a competitor and involve our lawyer."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "key": "SUP-104",
+      "fields": {
+        "summary": "Production line integration is down",
+        "description": "Production line integration is down. This is critical, we are blocked.",
+        "reporter": {
+          "accountId": "u-ap1",
+          "displayName": "Marta Kovacs",
+          "emailAddress": "marta.kovacs@apexmfg.com"
+        },
+        "status": {
+          "name": "In Progress",
+          "statusCategory": {
+            "key": "indeterminate"
+          }
+        },
+        "priority": {
+          "name": "Highest"
+        },
+        "labels": [
+          "customer-apex-manufacturing",
+          "tier-business"
+        ],
+        "created": "2026-11-04T08:00:00.000+0000",
+        "comment": {
+          "comments": [
+            {
+              "id": "1",
+              "author": {
+                "displayName": "Ravi K",
+                "emailAddress": "ravi.k@unisys.com"
+              },
+              "created": "2026-11-04T10:00:00.000+0000",
+              "body": "Engineering has been notified."
+            },
+            {
+              "id": "2",
+              "author": {
+                "displayName": "Marta Kovacs",
+                "emailAddress": "marta.kovacs@apexmfg.com"
+              },
+              "created": "2026-11-05T08:00:00.000+0000",
+              "body": "Any update? We are still blocked and the line is idle."
+            },
+            {
+              "id": "3",
+              "author": {
+                "displayName": "Marta Kovacs",
+                "emailAddress": "marta.kovacs@apexmfg.com"
+              },
+              "created": "2026-11-05T20:00:00.000+0000",
+              "body": "It has been over a day and we have no update. The outage is costing us. I am disappointed with the response."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "key": "SUP-105",
+      "fields": {
+        "summary": "Password reset",
+        "description": "I forgot my password.",
+        "reporter": {
+          "accountId": "u-hf1",
+          "displayName": "Jo Park",
+          "emailAddress": "jo.park@harborfoods.com"
+        },
+        "status": {
+          "name": "Done",
+          "statusCategory": {
+            "key": "done"
+          }
+        },
+        "priority": {
+          "name": "Low"
+        },
+        "labels": [
+          "customer-harbor-foods"
+        ],
+        "created": "2026-11-01T09:00:00.000+0000",
+        "comment": {
+          "comments": [
+            {
+              "id": "1",
+              "author": {
+                "displayName": "Priya S",
+                "emailAddress": "priya.s@unisys.com"
+              },
+              "created": "2026-11-01T09:10:00.000+0000",
+              "body": "Reset link sent."
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
